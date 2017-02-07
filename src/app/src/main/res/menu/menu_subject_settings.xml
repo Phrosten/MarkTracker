@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/Action_Add"
+        android:icon="@drawable/addicon"
+        android:title="@string/Action_Add"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/Action_Launch_ColorSettings"
+        android:title="@string/Action_Settings_Color"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/Action_ResetToDefault"
+        android:title="@string/Action_ResetToDefault"
+        app:showAsAction="never"/>
+</menu>

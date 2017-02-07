@@ -1,0 +1,109 @@
+<resources>
+
+    <!--
+        Identifiers
+    -->
+
+    <string name="Point">Point(s)</string>
+    <string name="Point_Short">P</string>
+    <string name="RawPoint">Raw Point(s)</string>
+    <string name="RawPoint_Short">RP</string>
+    <string name="Class">Class</string>
+
+    <!--
+        Activity Names and App Name
+    -->
+
+    <string name="app_name">MarkTracker</string>
+    <string name="ColorSettingsActivity_Title">Color Settings</string>
+    <string name="SubjectsSettingsActivity_Title">Subject Settings</string>
+    <string name="PointCalculatorActivity_Title">Point Calculator</string>
+    <string name="SemesterOverviewActivity_Title">Semester Overview</string>
+
+    <!--
+        Titles
+    -->
+
+    <!-- OverviewActivity -->
+    <string name="Title_Result">Result</string>
+    <string name="Title_Overview">Overview</string>
+
+    <!-- ColorSettingsActivity -->
+    <string name="Title_Value_Red">Red Value</string>
+    <string name="Title_Value_Green">Green Value</string>
+    <string name="Title_Value_Blue">Blue Value</string>
+    <string name="Title_MinPoints">Minimal points</string>
+    <string name="Title_MaxPoints">Maximal points</string>
+
+    <!-- SubjectSettingsActivity -->
+    <string name="Title_SubjectName">Subject Name</string>
+    <string name="Title_ClassTestPercent">Class Test Percentage</string>
+
+    <!-- SubjectSemesterOverviewActivity -->
+    <string name="Title_Mark">Mark</string>
+    <string name="Title_ClassTest">Class Test</string>
+
+    <!-- MarkItemEditPopupActivity -->
+    <string name="Title_EditAMarkItem">Edit a Mark Item</string>
+
+    <!-- MultiAddActivity -->
+    <string name="Title_AddMultiple">Add Multiple items</string>
+
+
+    <!--
+        Actions
+    -->
+
+    <string name="Action_Settings_Color">Change Color Settings</string>
+    <string name="Action_Settings_Subject">Change Subjects</string>
+    <string name="Action_PointCalculator">Point Calculator</string>
+
+    <string name="Action_ResetToDefault">Reset To Default</string>
+    <string name="Action_Save">Save</string>
+    <string name="Action_Add">Add new item</string>
+    <string name="Action_Delete">Delete</string>
+    <string name="Action_Settings_Sort">Sort</string>
+
+    <string name="Action_Calculate">Calculate</string>
+    <string name="Action_AddMultiple">Add Multiple</string>
+    <string name="Action_ClearAll">Clear All</string>
+    <string name="Action_SubjectSemesterOverview_Sort">Sort</string>
+
+    <!--
+        DialogTitle
+    -->
+
+    <string name="DialogTitle_Sure">Are you sure?</string>
+
+    <!--
+        DialogText
+    -->
+
+    <string name="DialogText_NotLegal">The settings you provided are not legal! (No overlapping / Free Areas)</string>
+    <string name="DialogText_Sure_ResetToDefault">Do you really want to load the default settings?</string>
+    <string name="DialogText_Sure_ResetApp">Do you really want to delete all marks?</string>
+    <string name="DialogText_Sure_DeleteItem">Do you really want to delete this item?</string>
+
+    <!--
+        DialogOptions
+    -->
+
+    <string name="DialogOptionYes">Yes</string>
+    <string name="DialogOptionNo">No</string>
+
+
+    <!--
+        Info
+    -->
+
+    <string name="Info_Saved">Saved.</string>
+    <string name="Info_SaveError">An error occured while saving.</string>
+
+    <!--
+        View Labels
+    -->
+
+    <string name="CheckBox_ClassTest">Evaluate as class test</string>
+    <string name="Label_AddMultiple_Tip">Add multiple items separated by a space.</string>
+
+</resources>

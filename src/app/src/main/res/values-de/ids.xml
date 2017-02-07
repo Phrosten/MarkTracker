@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="DisplayItem_Result" />
+    <item type="id" name="DisplayItem_Overview_0" />
+    <item type="id" name="DisplayItem_Overview_1" />
+    <item type="id" name="DisplayItem_Overview_2" />
+    <item type="id" name="DisplayItem_Overview_3" />
+</resources>

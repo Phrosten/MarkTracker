@@ -1,0 +1,109 @@
+<resources>
+
+    <!--
+        Identifiers
+    -->
+
+    <string name="Point">Punkt(e)</string>
+    <string name="Point_Short">P</string>
+    <string name="RawPoint">Rohpunkt(e)</string>
+    <string name="RawPoint_Short">RP</string>
+    <string name="Class">Klasse</string>
+
+    <!--
+        Activity Names and App Name
+    -->
+
+    <string name="app_name">MarkTracker</string>
+    <string name="ColorSettingsActivity_Title">Farbeinstellungen</string>
+    <string name="SubjectsSettingsActivity_Title">Facheinstellungen</string>
+    <string name="PointCalculatorActivity_Title">Punkterechner</string>
+    <string name="SemesterOverviewActivity_Title">Semesterübersicht</string>
+
+    <!--
+        Titles
+    -->
+
+    <!-- OverviewActivity -->
+    <string name="Title_Result">Ergebnis</string>
+    <string name="Title_Overview">Übersicht</string>
+
+    <!-- ColorSettingsActivity -->
+    <string name="Title_Value_Red">Rotwert</string>
+    <string name="Title_Value_Green">Grünwert</string>
+    <string name="Title_Value_Blue">Blauwert</string>
+    <string name="Title_MinPoints">Minimale Punkte</string>
+    <string name="Title_MaxPoints">Maximale Punkte</string>
+
+    <!-- SubjectSettingsActivity -->
+    <string name="Title_SubjectName">Fachname</string>
+    <string name="Title_ClassTestPercent">Klausurprozente</string>
+
+    <!-- SubjectSemesterOverviewActivity -->
+    <string name="Title_Mark">Zensur</string>
+    <string name="Title_ClassTest">Klausur</string>
+
+    <!-- MarkItemEditPopupActivity -->
+    <string name="Title_EditAMarkItem">Eine Zensur bearbeiten</string>
+
+    <!-- MultiAddActivity -->
+    <string name="Title_AddMultiple">Mehere Items hinzufügen</string>
+
+
+    <!--
+        Actions
+    -->
+
+    <string name="Action_Settings_Color">Farbeinstellungen anpassen</string>
+    <string name="Action_Settings_Subject">Fächer ändern</string>
+    <string name="Action_PointCalculator">Punkterechner</string>
+
+    <string name="Action_ResetToDefault">Auf Standart zurücksetzen</string>
+    <string name="Action_Save">Speichern</string>
+    <string name="Action_Add">Neues Item hinzufügen</string>
+    <string name="Action_Delete">Löschen</string>
+    <string name="Action_Settings_Sort">Sortieren</string>
+
+    <string name="Action_Calculate">Berechnen</string>
+    <string name="Action_AddMultiple">Mehere hinzufügen</string>
+    <string name="Action_ClearAll">Alles  Löschen</string>
+    <string name="Action_SubjectSemesterOverview_Sort">Sortieren</string>
+
+    <!--
+        DialogTitle
+    -->
+
+    <string name="DialogTitle_Sure">Bist du dir sicher?</string>
+
+    <!--
+        DialogText
+    -->
+
+    <string name="DialogText_NotLegal">Die Einstellungen sind nicht korrekt! (Keine Überlappungen / Freie Bereiche)</string>
+    <string name="DialogText_Sure_ResetToDefault">Möchtest du wirklich die Standarteinstellungen laden?</string>
+    <string name="DialogText_Sure_ResetApp">Möchtest du wirklich alle Zensuren löschen?</string>
+    <string name="DialogText_Sure_DeleteItem">Möchtest du wirklich dieses Item löschen?</string>
+
+    <!--
+        DialogOptions
+    -->
+
+    <string name="DialogOptionYes">Ja</string>
+    <string name="DialogOptionNo">Nein</string>
+
+
+    <!--
+        Info
+    -->
+
+    <string name="Info_Saved">Gespeichert.</string>
+    <string name="Info_SaveError">Ein Fehler ist während des Speichern aufgetreten.</string>
+
+    <!--
+        View Labels
+    -->
+
+    <string name="CheckBox_ClassTest">Als Klausur bewerten</string>
+    <string name="Label_AddMultiple_Tip">Mehere Zensuren getrennt durch Space hinzufügen.</string>
+
+</resources>

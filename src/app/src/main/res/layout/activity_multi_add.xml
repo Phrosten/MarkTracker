@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mark_item_edit_popup"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jonasheinrich.www.marktracker.Activities.MultiAddActivity"
+    android:background="#EEEEEE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Layout_Wrapper"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/Title_AddMultiple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDefaultTextColor"
+            style="@style/LargeText"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"/>
+
+        <TextView
+            android:text="@string/Label_AddMultiple_Tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDefaultTextColor"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/txtMarks"
+            android:layout_weight="0.13" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
